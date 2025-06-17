@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity69"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+
+    <EditText
+       android:id="@+id/ET"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textSize="50sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/BUT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="dd"
+        android:text="SUBMIT"
+        android:textColor="@color/smol"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/TV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp" />
+
+</LinearLayout>

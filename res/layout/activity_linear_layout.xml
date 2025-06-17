@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Linear_layout"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.SearchView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/search"
+            android:paddingBottom="5sp"
+            android:backgroundTint="@color/white"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="220sp"
+            android:background="@drawable/image9"
+            android:paddingBottom="35sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="89dp"
+            android:layout_height="69dp"
+            android:background="@drawable/image5"
+            android:paddingBottom="35sp" />
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="82dp"
+            android:background="@drawable/image3"
+            android:paddingBottom="35sp" />
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="82dp"
+            android:background="@drawable/image3"
+            android:paddingBottom="35sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="      MONSTER ENERGY"
+            android:textSize="34dp"
+            android:textColor="#139E0C"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

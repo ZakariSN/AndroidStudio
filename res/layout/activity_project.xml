@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".project">
+
+    <TextView
+        android:id="@+id/monthLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="April 2025"
+        android:textSize="24sp"
+        android:textColor="#1E1E1E"
+        android:background="#F7F2FA"
+        android:gravity="center"
+        android:elevation="4dp" />
+
+    <LinearLayout
+        android:id="@+id/summaryCard"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="80dp"
+        android:background="#EADDFF"
+        android:elevation="2dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Expenses"
+            android:textColor="#381E72"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/totalAmount"
+            android:layout_width="99dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="25dp"
+            android:text="₹0.00"
+            android:textColor="#381E72"
+            android:textSize="28sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/addExpenseLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="#F7F2FA"
+        android:elevation="8dp">
+
+        <EditText
+            android:id="@+id/expenseInput"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:hint="New Expense"
+            android:textColor="#1C1B1F"
+            android:backgroundTint="#7D5260"
+            android:inputType="text"
+            android:paddingHorizontal="12dp"
+            android:gravity="center_vertical" />
+
+        <EditText
+            android:id="@+id/amountInput"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:hint="₹0"
+            android:inputType="numberDecimal"
+            android:backgroundTint="#7D5260"
+            android:textColor="#1C1B1F"
+            android:paddingHorizontal="12dp"
+            android:gravity="center_vertical" />
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:text="Add"
+            android:backgroundTint="#6750A4"
+            android:textColor="#FFFFFF"
+            android:paddingHorizontal="16dp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/expenseList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginBottom="100dp"
+        android:divider="#E0E0E0"
+        android:dividerHeight="1dp" />
+
+</FrameLayout>

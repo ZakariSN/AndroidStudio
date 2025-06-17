@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".media"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4B94C5"
+        android:text="Button 1"
+        android:id="@+id/bt1"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#58A3D7"
+        android:text="Button 2"
+        android:id="@+id/bt2"/>
+
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="419dp"
+        android:id="@+id/vid"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8FB8D5"
+        android:text="Button 3"
+        android:id="@+id/bt3"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

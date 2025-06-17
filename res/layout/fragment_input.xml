@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#33B2EB">
+
+    <EditText
+        android:id="@+id/edit_text_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="🔥typetypetype"
+        android:padding="14dp"
+        android:textColor="#212121"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
+        android:background="#E2C08E"
+        android:elevation="4dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚀 Send to Other Fragment"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:background="#DC83E6"
+        android:elevation="8dp"
+        android:layout_marginTop="24dp"
+        android:padding="14dp" />
+</LinearLayout>

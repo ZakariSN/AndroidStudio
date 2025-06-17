@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FF5733"> <!-- Vibrant Orange -->
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:background="#900C3F" /> <!-- Deep Red -->
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Name"
+        android:textColor="#FFFFFF"
+        android:background="#C70039" /> <!-- Vibrant Pink -->
+
+</LinearLayout>

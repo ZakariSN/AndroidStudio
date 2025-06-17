@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#051D75"
+    tools:context=".Project2">
+
+    <EditText
+        android:id="@+id/caloriesInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Calories"
+        android:inputType="number"
+        android:background="#37B6EF"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/proteinInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Protein (g)"
+        android:inputType="number"
+        android:background="#37B6EF"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/carbsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Carbs (g)"
+        android:inputType="number"
+        android:background="#37B6EF"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/fatsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fats (g)"
+        android:inputType="number"
+        android:background="#37B6EF"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/fiberInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fiber (g)"
+        android:inputType="number"
+        android:background="#37B6EF"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/stepsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Steps"
+        android:inputType="number"
+        android:background="#37B6EF"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#333333"/>
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Values"
+        android:background="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/caloriesDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calories: "
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/proteinDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Protein: "
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/carbsDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carbs: "
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/fatsDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fats: "
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/fiberDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fiber: "
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/stepsDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Steps: "
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/workoutInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Workout"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/addWorkoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Workout"
+        android:background="#2324B4"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/workoutRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
